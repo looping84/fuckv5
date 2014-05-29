@@ -75,7 +75,7 @@ var fuck = {
         })
 
         console.log("开始提交".green);
-        async.parallelLimit(task.slice(2000), 5, function(err, results) {
+        async.parallelLimit(task, 5, function(err, results) {
 
         });
 
