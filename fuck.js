@@ -44,6 +44,7 @@ var fuck = {
             postData.mid = me.getRandomCate();
             postData.name = me.getRandomCharacter().slice(0, 5) + random++;
             postData.url = item + random++;
+            postData.url = item;
             postData.intro = me.getRandomCharacter().slice(0, 10) + random++;
 
             return function(callback) {
@@ -74,7 +75,7 @@ var fuck = {
         })
 
         console.log("开始提交".green);
-        async.parallelLimit(task, 5, function(err, results) {
+        async.parallelLimit(task.slice(2000), 5, function(err, results) {
 
         });
 
