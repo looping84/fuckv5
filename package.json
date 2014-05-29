@@ -1,0 +1,17 @@
+{
+    "name": "application-name",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+       
+    },
+    "devDependencies": {
+        "underscore": "~1.6.0",
+        "cheerio": "~0.15.0",
+        "async": "",
+        "colors": ""
+    }
+}
